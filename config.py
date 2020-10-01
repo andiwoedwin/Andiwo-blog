@@ -6,7 +6,7 @@ class Config:
     General configuration parent class
     """
     SECRET_KEY = 'andiwo'
-    # SQLALCHEMY_TRACK_MODIFICATIONS = False
+    
     UPLOADED_PHOTOS_DEST = 'app/static/photos'
     QUOTE_API_BASE_URL = 'http://quotes.stormconsultancy.co.uk/random.json'
 
