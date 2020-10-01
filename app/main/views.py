@@ -141,3 +141,4 @@ def comment(id):
         new_comment.save_comment()
 
     return render_template('view.html', comment_form=comment_form)
+    # view
